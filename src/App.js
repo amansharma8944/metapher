@@ -9,10 +9,10 @@ function App() {
   <>
   <BrowserRouter>
   <Routes>
-
-    <Route path='/waitlist' element={<Clone1/>}/>
-    <Route path='/waitlist/Register' element={<SignUpPage/>}/>
-    <Route path='/waitlist/SignUpDone' element={<AfterSignup/>}/>
+    <Route path='/' element={<Clone1/>}/>
+   
+    <Route path='/Register' element={<SignUpPage/>}/>
+    <Route path='/SignUpDone' element={<AfterSignup/>}/>
 
   </Routes>
   
