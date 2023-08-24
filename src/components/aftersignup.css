@@ -1,0 +1,29 @@
+.firstDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.congrats{
+    font-size: 26.5px;
+    font-weight: 300;
+    margin-top: 34px;
+}
+
+.descriptionforMagpiie{
+
+    font-size: 30px;
+    font-weight: 600;
+    width: 57vw;
+    /* text-wrap: balance; */
+    text-align: center;
+    margin-top: 25px;
+    line-height: 45px;
+}
+
+.p-under-the-description{
+    font-size: 17.5px;
+    font-weight: 300;
+    margin-top: 34px;
+    text-align: center;
+    width: 43vw;
+}

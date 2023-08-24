@@ -1,9 +1,25 @@
+import AfterSignup from './components/AfterSignup';
 import Clone1 from './components/Clone1';
+import SignUpPage from "./components/SignUppage"
+import "./components/aftersignup.css"
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
 
 function App() {
   return (
   <>
-  <Clone1/>
+  <BrowserRouter>
+  <Routes>
+
+    <Route path='/waitlist' element={<Clone1/>}/>
+    <Route path='/waitlist/Register' element={<SignUpPage/>}/>
+    <Route path='/waitlist/SignUpDone' element={<AfterSignup/>}/>
+
+  </Routes>
+  
+  
+  
+  </BrowserRouter>
+
   </>
   );
 }
