@@ -24,7 +24,7 @@
 
 .header-copy.clipped{
     width: 1350px;
-    background-image: linear-gradient(181.7deg, #0032f6, #1dcaf8);
+    background-image: linear-gradient(181.7deg, #625072, #db706e);
     margin-top: 30px;
     margin-bottom: 10px;
     padding-top: 0;
@@ -45,7 +45,7 @@
 
 .header.clipped {
     width: 89vw;
-    background-image: linear-gradient(181.7deg, #0032f6, #1dcaf8);
+    background-image: linear-gradient(181.7deg, #625072, #625072);
     margin-top: -24px;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -66,7 +66,7 @@
 .test{
     
     height: 26vh;
-    margin: 78px 0px 24px 0px;
+    margin: 78px 0px -100px 0px;
 }
 
 .text{
@@ -75,7 +75,7 @@
     color: #7b7b7b;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
     font-family: Graphik, sans-serif;
     font-size: 17px;
     font-weight: 400;
@@ -85,7 +85,7 @@
 }
 
 #btn__bg {
-    background: linear-gradient(107.8deg, #0035F3 0%, #00B9E7 105%);
+    background: linear-gradient(107.8deg, #625072 0%, #625072 105%);
     transition: .5s;
     position: relative;
 }
@@ -204,7 +204,7 @@ h6 {
 }
 
 .img-for-logo{
-    width: 24vw;
-    height: 13vh;
+    width: 26vw;
+    height: 8vh;
 
 }

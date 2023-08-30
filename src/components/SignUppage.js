@@ -18,26 +18,22 @@ export default function SignUpPage(props) {
   };
 
   const formSubmit = (e) => {
-    axios
-      .post("http://localhost:3001/waitlist", { dataInput })
-      .then((e) => {
-        console.log("registered successfully");
-        navigate("/SignUpDone");
-      })
-      .catch((e) => console.log(e));
+    navigate("/SignUpDone");
   };
 
   return (
     <>
-      <div class="container">
-        <div class="custom-section mx-auto">
-          <img src="/magpiie.png" class="h-[30px]" height="30" />
-          <h3 class="signup-description">Create your free Magpiie account</h3>
+      <div className="container">
+        <div className="custom-section mx-auto">
+          <img src="/magpiie.png" className="img-set" height="30" />
+          <h3 className="signup-description">
+            Create your free Magpiie account
+          </h3>
 
           <hr />
 
-          <form class="signup-form signup-basic-form">
-            <div class="custom-form-item">
+          <form className="signup-form signup-basic-form">
+            <div className="custom-form-item">
               <label for="userName">Full Name</label>
               <input
                 id="userName"
@@ -49,7 +45,7 @@ export default function SignUpPage(props) {
               />
             </div>
 
-            <div class="custom-form-item">
+            <div className="custom-form-item">
               <label for="userEmail">Email</label>
               <input
                 type="email"
@@ -60,7 +56,7 @@ export default function SignUpPage(props) {
                 onChange={onInputChange}
               />
             </div>
-            <div class="custom-form-item">
+            <div className="custom-form-item">
               <label for="YoutubeLink">Youtube Link</label>
               <input
                 id="YoutubeLink"
@@ -70,7 +66,7 @@ export default function SignUpPage(props) {
                 onChange={onInputChange}
               />
             </div>
-            <button class="btn-submit" onClick={formSubmit}>
+            <button className="btn-submit" onClick={formSubmit}>
               SignUp
             </button>
           </form>

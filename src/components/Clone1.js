@@ -36,12 +36,12 @@ const Clone1 = () => {
             class="click_button"
           >
             <p href="#" class="link-block w-inline-block"></p>
-            <h2 class="button_header">Create Your Free Account</h2>
-            <h6 class="button_subheading">And Join 70,000+ Businesses</h6>
+            <h2 className="button_header">Join Waitlist!</h2>
+            <h6 className="button_subheading">260 + already joined!</h6>
           </div>
-          <a href="#" class="login_link">
-            Or Login To Existing Account
-          </a>
+          <p className="login_link">
+          © 2023 Metapher Media Labs. All Rights Reserved
+          </p>
         </div>
       </div>
     </>
